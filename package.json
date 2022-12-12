@@ -23,6 +23,8 @@
   "files": [
     "dist"
   ],
+  "main": "dist/cjs/index.js",
+  "module": "dist/esm/index.js",
   "types": "dist/index.d.ts",
   "publishConfig": {
     "registry": "https://npm.pkg.github.com/@ksarava"

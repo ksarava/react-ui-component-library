@@ -10,7 +10,7 @@ import dts from "rollup-plugin-dts";
 
 export default [
     {
-        input: "src/index.tsx",
+        input: "./src/index.ts",
         output: [
             {
                 file: "dist/cjs/index.js", //File that gets exported.
