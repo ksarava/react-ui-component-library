@@ -10,15 +10,15 @@ import dts from "rollup-plugin-dts";
 
 export default [
     {
-        input: "./src/index.ts",
+        input:["./src/transportation/index.ts"],
         output: [
             {
-                file: "dist/cjs/index.js", //File that gets exported.
+                file: "dist/cjs/transportation/index.js", //File that gets exported.
                 format: "cjs", 
                 sourcemap: true
             },
             {
-                file:"dist/esm/index.js",
+                file:"dist/esm/transportation/index.js",
                 format: "esm",
                 sourcemap: true
             }
@@ -30,8 +30,8 @@ export default [
         ]
     },
     {
-        input: "dist/esm/types/index.d.ts",
-        output: [{file:"dist/index.d.ts", format: "esm"}],
+        input: "dist/esm/transportation/types/index.d.ts",
+        output: [{file:"dist/transportation/index.d.ts", format: "esm"}],
         plugins:[dts()]
     }
 ]
