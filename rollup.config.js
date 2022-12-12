@@ -13,6 +13,11 @@ export default [
         input: "./src/index.ts",
         output: [
             {
+                file: "transportation/cjs/index.js", //File that gets exported.
+                format: "cjs", 
+                sourcemap: true
+            },
+            {
                 file:"transportation/esm/index.js",
                 format: "esm",
                 sourcemap: true
