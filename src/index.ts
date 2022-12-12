@@ -1,1 +1,1 @@
-export * from "./transportation/Vehicle";
+export { Vehicle } from "./components/transportation"
