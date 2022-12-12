@@ -1,1 +1,1 @@
-export * from './transportation'
+export { default as Vehicle} from './Vehicle'
