@@ -1,6 +1,6 @@
 {
   "name": "@ksarava/trimble-react-component-library",
-  "version": "0.0.13",
+  "version": "0.0.14",
   "description": "A react component library",
   "scripts": {
     "rollup-config": "rollup -c"
