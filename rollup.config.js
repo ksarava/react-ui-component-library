@@ -13,12 +13,12 @@ export default [
         input: "./src/index.ts",
         output: [
             {
-                file: "transportation/cjs/index.js", //File that gets exported.
+                file: "dist/cjs/index.js", //File that gets exported.
                 format: "cjs", 
                 sourcemap: true
             },
             {
-                file:"transportation/esm/index.js",
+                file:"dist/esm/index.js",
                 format: "esm",
                 sourcemap: true
             }
@@ -30,8 +30,8 @@ export default [
         ]
     },
     {
-        input: "transportation/esm/types/index.d.ts",
-        output: [{file:"transportation/index.d.ts", format: "esm"}],
+        input: "dist/esm/types/index.d.ts",
+        output: [{file:"dist/index.d.ts", format: "esm"}],
         plugins:[dts()]
     }
 ]
