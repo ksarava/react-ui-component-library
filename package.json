@@ -1,6 +1,6 @@
 {
   "name": "@ksarava/react-ui-component-library",
-  "version": "0.0.26",
+  "version": "0.0.27",
   "description": "A react component library",
   "scripts": {
     "rollup-config": "rollup -c"
@@ -22,8 +22,7 @@
     "typescript": "^4.9.4"
   },
   "files": [
-    "transportation",
-    "construction"
+    "dist"
   ],
   "main": "src/index.js",
   "module": "src/index.js",
@@ -33,5 +32,8 @@
   "peerDependencies": {
     "react": ">=16.8.0",
     "react-dom": ">=16.8.0"
+  },
+  "dependencies": {
+    "@trimbleinc/modus-react-bootstrap": "^1.1.5"
   }
 }
