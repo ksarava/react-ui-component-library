@@ -13,7 +13,7 @@ export default [
         input: "src/transportation/index.tsx",
         output: [
             {
-                file:"dist/transportation/esm/index.js",
+                file:"transportation/index.js",
                 format: "esm",
                 sourcemap: true
             }
