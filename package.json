@@ -1,6 +1,6 @@
 {
   "name": "@ksarava/react-ui-component-library",
-  "version": "0.0.37",
+  "version": "0.0.38",
   "description": "A react component library",
   "scripts": {
     "rollup-config": "rollup -c"
