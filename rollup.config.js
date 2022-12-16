@@ -14,7 +14,7 @@ export default [
         input: "src/transportation/index.tsx",
         output: [
             {
-                file:"dist/transportation/index.js",
+                file:"transportation/index.js",
                 format: "esm",
                 sourcemap: true
             }
@@ -29,7 +29,7 @@ export default [
         input: "src/construction/index.tsx",
         output: [
             {
-                file:"dist/construction/index.js",
+                file:"construction/index.js",
                 format: "esm",
                 sourcemap: true
             }
@@ -42,12 +42,12 @@ export default [
     },
     {
         input: "src/transportation/index.tsx",
-        output: [{file:"dist/transportation/index.d.ts", format: "esm"}],
+        output: [{file:"transportation/index.d.ts", format: "esm"}],
         plugins:[dts()]
     },
     {
         input: "src/construction/index.tsx",
-        output: [{file:"dist/construction/index.d.ts", format: "esm"}],
+        output: [{file:"construction/index.d.ts", format: "esm"}],
         plugins:[dts()]
     }
 ]
