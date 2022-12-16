@@ -1,6 +1,6 @@
 {
   "name": "@ksarava/react-ui-component-library",
-  "version": "0.0.34",
+  "version": "0.0.35",
   "description": "A react component library",
   "scripts": {
     "rollup-config": "rollup -c"
@@ -33,8 +33,5 @@
   "peerDependencies": {
     "react": ">=16.8.0",
     "react-dom": ">=16.8.0"
-  },
-  "dependencies": {
-    "@trimbleinc/modus-react-bootstrap": "^1.1.5"
   }
 }
