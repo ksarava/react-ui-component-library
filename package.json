@@ -1,6 +1,6 @@
 {
   "name": "@ksarava/react-ui-component-library",
-  "version": "0.0.31",
+  "version": "0.0.33",
   "description": "A react component library",
   "scripts": {
     "rollup-config": "rollup -c"
@@ -25,11 +25,10 @@
     "typescript": "^4.9.4"
   },
   "files": [
-    "transportation",
-    "construction"
+   "dist"
   ],
-  "main": "src/index.tsx",
-  "module": "src/index.tsx",
+  "main": "src/index.js",
+  "module": "src/index.js",
   "publishConfig": {
     "registry": "https://npm.pkg.github.com/@ksarava"
   },
