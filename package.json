@@ -1,6 +1,6 @@
 {
   "name": "@ksarava/react-ui-component-library",
-  "version": "0.0.28",
+  "version": "0.0.29",
   "description": "A react component library",
   "scripts": {
     "rollup-config": "rollup -c"
@@ -13,8 +13,11 @@
     "@rollup/plugin-node-resolve": "^15.0.1",
     "@rollup/plugin-terser": "^0.2.0",
     "@rollup/plugin-typescript": "^10.0.1",
+    "@trimbleinc/modus-react-bootstrap": "^1.1.5",
+    "@types/node": "^18.11.15",
     "@types/react": "^18.0.26",
     "react": "^18.2.0",
+    "react-scripts-ts": "^3.1.0",
     "rollup": "^3.7.3",
     "rollup-plugin-dts": "^5.0.0",
     "sass": "^1.56.2",
@@ -33,7 +36,5 @@
     "react": ">=16.8.0",
     "react-dom": ">=16.8.0"
   },
-  "dependencies": {
-    "@trimbleinc/modus-react-bootstrap": "^1.1.5"
-  }
+  "dependencies": {}
 }
