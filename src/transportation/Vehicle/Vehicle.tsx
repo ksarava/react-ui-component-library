@@ -1,4 +1,5 @@
 import React from 'react'
+import Card from "@trimbleinc/modus-react-bootstrap/esm/Card";
 const truck = require("../assets/Images/truck.svg") as string;
 const location = require("../assets/Images/location.svg") as string;
 const driver = require("../assets/Images/driver.svg") as string;
@@ -21,9 +22,9 @@ interface IVehicle {
 
 const Vehicle = (props: IVehicle) => {
     return(
-      <div style={{ width: "22rem", padding: "0.5rem" }} className="shadow">
+      <Card style={{ width: "22rem", padding: "0.5rem" }} className="shadow">
       <div className="d-flex flex-column">
-        <h4>{"Vehicle - Test name"}</h4>
+        <Card.Title as="h4">Vehicle - Test name</Card.Title>
 
         <div className="d-flex flex-row p-1">
           { props?.name && <div style={{ width: "7rem" }} className="shadow p-1 m-1">
@@ -61,7 +62,7 @@ const Vehicle = (props: IVehicle) => {
           </div>}
         </div>
       </div>
-    </div>
+    </Card>
     )
 }
 

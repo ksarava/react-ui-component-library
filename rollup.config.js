@@ -2,6 +2,7 @@ import resolve from "@rollup/plugin-node-resolve";
 import commonjs from "@rollup/plugin-commonjs";
 import typescript from "@rollup/plugin-typescript";
 import dts from "rollup-plugin-dts";
+import postcss from 'rollup-plugin-postcss'
 
 
 // Rollup config exports an array of configuration objects.
@@ -23,6 +24,7 @@ export default [
             resolve(),
             commonjs(),
             typescript({tsconfig: './tsconfig.json'}),
+            postcss(),
         ]
     },
     {
@@ -48,6 +50,7 @@ export default [
     {
         input: "src/construction/index.tsx",
         output: [{file:"dist/construction/index.d.ts", format: "esm"}],
-        plugins:[dts()]
+        plugins:[dts()],
+        external: [/\.css$/],
     }
 ]
